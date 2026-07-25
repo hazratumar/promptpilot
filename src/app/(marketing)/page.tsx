@@ -1,3 +1,5 @@
+"use client";
+
 import { HeroSection } from "@/components/marketing/hero-section";
 import { ProductPreview } from "@/components/marketing/product-preview";
 import { SocialProof } from "@/components/marketing/social-proof";
@@ -26,9 +28,7 @@ export default function LandingPage() {
       <section className="py-16 sm:py-24 bg-slate-50 border-b border-slate-200/80">
         <PageContainer>
           <div className="text-center max-w-2xl mx-auto mb-16">
-            <h2 className="text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
-              Powerful Features for Prompt Engineering
-            </h2>
+            <h2 className="text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">Powerful Features for Prompt Engineering</h2>
             <p className="mt-4 text-base text-slate-600">
               Designed from the ground up to replace fragmented prompt notes with a structured benchmarking suite.
             </p>
@@ -41,12 +41,8 @@ export default function LandingPage() {
       <section className="py-16 sm:py-24 bg-white border-b border-slate-200/80">
         <PageContainer>
           <div className="text-center max-w-2xl mx-auto mb-16">
-            <h2 className="text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
-              How PromptPilot Works
-            </h2>
-            <p className="mt-4 text-base text-slate-600">
-              A simple three-step methodology for building high-performing prompt pipelines.
-            </p>
+            <h2 className="text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">How PromptPilot Works</h2>
+            <p className="mt-4 text-base text-slate-600">A simple three-step methodology for building high-performing prompt pipelines.</p>
           </div>
           <WorkflowSteps />
         </PageContainer>
@@ -56,12 +52,8 @@ export default function LandingPage() {
       <section className="py-16 sm:py-24 bg-slate-50 border-b border-slate-200/80 text-center">
         <PageContainer>
           <div className="max-w-2xl mx-auto mb-12">
-            <h2 className="text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
-              Tailored for Every Role
-            </h2>
-            <p className="mt-4 text-base text-slate-600">
-              See how different team members utilize PromptPilot to streamline their AI workflows.
-            </p>
+            <h2 className="text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">Tailored for Every Role</h2>
+            <p className="mt-4 text-base text-slate-600">See how different team members utilize PromptPilot to streamline their AI workflows.</p>
           </div>
           <UseCaseTabs />
         </PageContainer>
@@ -71,12 +63,8 @@ export default function LandingPage() {
       <section className="py-16 sm:py-24 bg-white border-b border-slate-200/80">
         <PageContainer>
           <div className="text-center max-w-2xl mx-auto mb-16">
-            <h2 className="text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
-              What AI Builders Say
-            </h2>
-            <p className="mt-4 text-base text-slate-600">
-              Feedback from engineers and product creators using PromptPilot.
-            </p>
+            <h2 className="text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">What AI Builders Say</h2>
+            <p className="mt-4 text-base text-slate-600">Feedback from engineers and product creators using PromptPilot.</p>
           </div>
           <TestimonialGrid />
         </PageContainer>
@@ -86,12 +74,8 @@ export default function LandingPage() {
       <section className="py-16 sm:py-24 bg-slate-50 border-b border-slate-200/80">
         <PageContainer>
           <div className="text-center max-w-2xl mx-auto mb-16">
-            <h2 className="text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
-              Simple, Transparent Pricing
-            </h2>
-            <p className="mt-4 text-base text-slate-600">
-              Explore plans designed for individual prompt engineers and scaling product teams.
-            </p>
+            <h2 className="text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">Simple, Transparent Pricing</h2>
+            <p className="mt-4 text-base text-slate-600">Explore plans designed for individual prompt engineers and scaling product teams.</p>
           </div>
           <PricingPreview />
         </PageContainer>
@@ -101,12 +85,8 @@ export default function LandingPage() {
       <section className="py-16 sm:py-24 bg-white border-b border-slate-200/80">
         <PageContainer>
           <div className="text-center max-w-2xl mx-auto mb-16">
-            <h2 className="text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
-              Frequently Asked Questions
-            </h2>
-            <p className="mt-4 text-base text-slate-600">
-              Everything you need to know about PromptPilot static SaaS workspace.
-            </p>
+            <h2 className="text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">Frequently Asked Questions</h2>
+            <p className="mt-4 text-base text-slate-600">Everything you need to know about PromptPilot static SaaS workspace.</p>
           </div>
           <FAQAccordion />
         </PageContainer>
