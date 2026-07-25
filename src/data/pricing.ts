@@ -1,0 +1,70 @@
+import { PricingPlan } from "@/types/pricing";
+
+export const MOCK_PRICING_PLANS: PricingPlan[] = [
+  {
+    id: "plan-free",
+    name: "Free",
+    tagline: "For individual AI enthusiasts organizing prompt libraries.",
+    priceMonthly: 0,
+    priceYearly: 0,
+    features: [
+      "Up to 25 saved prompts",
+      "50 simulated prompt tests / mo",
+      "Standard variable templates",
+      "Browser-local storage persistence",
+      "Community support",
+    ],
+    ctaLabel: "Get Started Free",
+    limits: {
+      prompts: "25",
+      testsPerMonth: "50",
+      history: "7 days",
+      teamMembers: "1 user",
+    },
+  },
+  {
+    id: "plan-pro",
+    name: "Pro",
+    tagline: "For prompt engineers and creators building production prompts.",
+    priceMonthly: 19,
+    priceYearly: 190,
+    isPopular: true,
+    features: [
+      "Unlimited saved prompts",
+      "500 simulated prompt tests / mo",
+      "Side-by-side run comparisons",
+      "Prompt score tracking & analytics",
+      "JSON & plain text prompt export",
+      "Priority customer support",
+    ],
+    ctaLabel: "Start Pro Trial",
+    limits: {
+      prompts: "Unlimited",
+      testsPerMonth: "500",
+      history: "90 days",
+      teamMembers: "1 user",
+    },
+  },
+  {
+    id: "plan-team",
+    name: "Team",
+    tagline: "For product and engineering teams standardizing prompt ops.",
+    priceMonthly: 49,
+    priceYearly: 490,
+    features: [
+      "Everything in Pro",
+      "Unlimited simulated prompt tests",
+      "Shared team prompt categories & tags",
+      "Custom evaluation score criteria",
+      "Advanced export & backup tool",
+      "Dedicated account manager",
+    ],
+    ctaLabel: "Upgrade to Team",
+    limits: {
+      prompts: "Unlimited",
+      testsPerMonth: "Unlimited",
+      history: "Unlimited",
+      teamMembers: "Up to 10 users",
+    },
+  },
+];

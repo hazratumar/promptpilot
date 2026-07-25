@@ -1,0 +1,33 @@
+import { ReactNode } from "react";
+import { cn } from "@/lib/utils";
+
+interface PageContainerProps {
+  children: ReactNode;
+  className?: string;
+  size?: "sm" | "md" | "lg" | "full";
+}
+
+export function PageContainer({
+  children,
+  className,
+  size = "lg",
+}: PageContainerProps) {
+  const maxWidths = {
+    sm: "max-w-3xl",
+    md: "max-w-5xl",
+    lg: "max-w-7xl",
+    full: "max-w-full",
+  };
+
+  return (
+    <div
+      className={cn(
+        "mx-auto w-full px-4 sm:px-6 lg:px-8",
+        maxWidths[size],
+        className
+      )}
+    >
+      {children}
+    </div>
+  );
+}
